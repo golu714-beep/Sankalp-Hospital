@@ -2,7 +2,7 @@
 $pageTitle = "Our Medical Experts | Sankalp Hospital - Best Multi-Specialty Hospital in Ambikapur";
 $pageDesc = "Meet our team of highly qualified medical experts at Sankalp Hospital in Ambikapur, specializing in IVF, Orthopaedics, Pediatrics, Gynecology, Urology, Surgery, and more.";
 
-require_once __DIR__ . '/includes/doctors-data.php';
+require_once __DIR__ . '/doctors/_registry.php';
 include __DIR__ . '/includes/header.php';
 include __DIR__ . '/includes/navbar.php';
 ?>
@@ -230,7 +230,7 @@ include __DIR__ . '/includes/navbar.php';
     <!-- Doctor Directory Grid -->
     <div class="row g-4 doctor-directory-grid">
       
-      <?php foreach ($doctors as $slug => $doc
+      <?php foreach ($doctorRegistry as $slug => $doc
       ): 
         // Build the filter class string, e.g. "filter-gynecology filter-surgery"
         $filterClasses = '';

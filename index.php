@@ -61,13 +61,10 @@ $departmentRoutes = [
     'onco-surgery.php' => 'oncology',
 ];
 
-require_once __DIR__ . '/includes/doctors-data.php';
-$cleanRoute = str_replace('.php', '', $route);
-if (isset($doctors[$cleanRoute])) {
-    $doctorSlug = $cleanRoute;
-    include __DIR__ . '/doctor-detail.php';
-    exit;
-}
+// Doctor pages are now real files in doctors/dr-<slug>.php — they are
+// served directly by the static-file pass-through in local_router.php
+// (dev) and the /doctors/(.*) route in vercel.json (prod). No PHP-level
+// routing is needed here.
 
 if (isset($departmentRoutes[$route])) {
     $deptKey = $departmentRoutes[$route];

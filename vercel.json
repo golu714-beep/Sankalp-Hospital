@@ -5,7 +5,15 @@
       "use": "vercel-php"
     },
     {
+      "src": "doctors/*.php",
+      "use": "vercel-php"
+    },
+    {
       "src": "style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "css/**",
       "use": "@vercel/static"
     },
     {
@@ -23,9 +31,11 @@
   ],
   "routes": [
     { "src": "/style.css", "dest": "/style.css" },
+    { "src": "/css/(.*)", "dest": "/css/$1" },
     { "src": "/script.js", "dest": "/script.js" },
     { "src": "/logo.png", "dest": "/logo.png" },
     { "src": "/images/(.*)", "dest": "/images/$1" },
+    { "src": "/doctors/(.*)", "dest": "/doctors/$1" },
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
