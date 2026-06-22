@@ -230,7 +230,8 @@ include __DIR__ . '/includes/navbar.php';
     <!-- Doctor Directory Grid -->
     <div class="row g-4 doctor-directory-grid">
       
-      <?php foreach ($doctors as $slug => $doc): 
+      <?php foreach ($doctors as $slug => $doc
+      ): 
         // Build the filter class string, e.g. "filter-gynecology filter-surgery"
         $filterClasses = '';
         if (isset($doc['filters']) && is_array($doc['filters'])) {
