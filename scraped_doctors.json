@@ -1,0 +1,231 @@
+{
+    "dr-lata-goyal": {
+        "name": "Dr. Lata Goyal",
+        "specialty": "Obstetrics & Gynaecology",
+        "degrees": "MBBS, MS (Obstetrics & Gynaecology) | Senior Consultant & IVF Specialist",
+        "experience": "15+ Years",
+        "img": "lata-goyal.jpg",
+        "bio": "Dr. Lata Goyal is a renowned Gynecologist and Infertility Specialist based in Ambikapur. With over 15 years of experience, she has pioneered assisted reproductive technologies (ART) in the Surguja district. She is known for her compassionate care and high success rates in IVF and normal deliveries.",
+        "long_bio": "Dr. Lata Goyal has been serving the community of Chhattisgarh for over a decade. Her commitment to bringing advanced medical technology to rural areas led to the establishment of the first IVF center in Ambikapur. She is a member of several prestigious medical associations and regularly participates in national health conferences.",
+        "expertise": [
+            "High-risk Pregnancy",
+            "IVF & Infertility",
+            "Laparoscopic Gynaec Surgery",
+            "PCOS Management",
+            "Prenatal Care"
+        ]
+    },
+    "dr-tanay-goyal": {
+        "name": "Dr. Tanay Goyal",
+        "specialty": "Orthopaedics",
+        "degrees": "MBBS, MS (Orthopaedics) | Senior Orthopedic Surgeon",
+        "experience": "10+ Years",
+        "img": "tanay-goyal.jpg",
+        "bio": "Dr. Tanay Goyal is a highly skilled Orthopedic Surgeon at Sankalp Hospital. He is an expert in joint replacement and sports injuries, having performed hundreds of successful knee and hip surgeries. He is dedicated to restoring mobility for his patients in the Surguja region.",
+        "long_bio": "",
+        "expertise": [
+            "Joint Replacement",
+            "ACL & Sports Injury",
+            "Fracture Management",
+            "Spine Surgery",
+            "Arthroscopy"
+        ]
+    },
+    "dr-suneedh-gupta": {
+        "name": "Dr. Suneedh Gupta",
+        "specialty": "Oral & Maxillofacial Surgery",
+        "degrees": "BDS, MDS (Oral & Maxillofacial Surgery) | Consultant Oral & Maxillofacial Surgeon",
+        "experience": "10+ Years",
+        "img": "suneedh-gupta.jpg",
+        "bio": "Dr. Suneedh Gupta is a highly skilled Oral & Maxillofacial Surgeon at Sankalp Hospital. He specializes in surgeries of the face, mouth, and jaws, including facial trauma management, oral pathology, and complex tooth extractions. He is dedicated to restoring facial function and aesthetics for his patients.",
+        "long_bio": "",
+        "expertise": [
+            "Facial Trauma Surgery",
+            "Jaw Realignment",
+            "Oral Cancer Screening",
+            "Complex Extractions",
+            "Dental Implants"
+        ]
+    },
+    "dr-sanjay-goyal": {
+        "name": "Dr. Sanjay Goyal",
+        "specialty": "Ophthalmology (Senior Specialist)",
+        "degrees": "MBBS, MS (Ophthalmology) | Founder & Senior Eye Surgeon",
+        "experience": "25+ Years",
+        "img": "sanjay-goyal.jpg",
+        "bio": "Dr. Sanjay Goyal is the founder of Sankalp Hospital and a pioneer of modern ophthalmology in the Surguja region. With over 25 years of experience, he has performed thousands of successful eye surgeries and is dedicated to providing world-class vision care to the community.",
+        "long_bio": "",
+        "expertise": [
+            "Micro-Incision Cataract Surgery",
+            "Laser Eye Treatment",
+            "Ocular Trauma",
+            "Corneal Diseases",
+            "Comprehensive Eye Care"
+        ]
+    },
+    "dr-nilesh-goyal": {
+        "name": "Dr. Nilesh Goyal",
+        "specialty": "General & Laparoscopic Surgery",
+        "degrees": "MBBS, MS (General Surgery) | Consultant General & Laparoscopic Surgeon",
+        "experience": "10+ Years",
+        "img": "nilesh-goyal.jpg",
+        "bio": "Dr. Nilesh Goyal is an expert General and Laparoscopic Surgeon at Sankalp Hospital. He specializes in minimally invasive surgeries, helping patients recover faster with less pain. He has extensive experience in performing complex abdominal surgeries and trauma management.",
+        "long_bio": "",
+        "expertise": [
+            "Laparoscopic Gallbladder Surgery",
+            "Hernia Repair",
+            "Appendectomy",
+            "Abdominal Surgery",
+            "Trauma Surgery"
+        ]
+    },
+    "dr-ankit-sharma": {
+        "name": "Dr. Ankit Sharma",
+        "specialty": "Psychiatry",
+        "degrees": "MBBS, MD (Psychiatry) | Consultant Psychiatrist",
+        "experience": "8+ Years",
+        "img": "ankit-sharma.jpg",
+        "bio": "Dr. Ankit Sharma is a compassionate Psychiatrist at Sankalp Hospital, dedicated to providing comprehensive mental health care. He specializes in treating a wide range of psychological conditions and is committed to helping his patients achieve mental well-being and resilience.",
+        "long_bio": "",
+        "expertise": [
+            "Depression & Anxiety",
+            "Stress Management",
+            "De-addiction",
+            "Child & Adolescent Psychiatry",
+            "Counseling"
+        ]
+    },
+    "dr-ankita-bansal-goyal": {
+        "name": "Dr. Ankita Bansal Goyal",
+        "specialty": "Obstetrics & Gynaecology",
+        "degrees": "MD (Obstetrics & Gynaecology) - PGIMER CHD, FMAS | Consultant Laparoscopic Surgeon & Gynaecologist",
+        "experience": "8+ Years",
+        "img": "ankita-goyal.jpg",
+        "bio": "Dr. Ankita Bansal Goyal is a gold-medalist from PGIMER Chandigarh and a pioneer in 3D Laparoscopic Surgery in Ambikapur. She specializes in minimally invasive gynecological procedures, including laparoscopic hysterectomy and myomectomy, providing advanced surgical care for women.",
+        "long_bio": "",
+        "expertise": [
+            "3D Laparoscopic Surgery",
+            "Laparoscopic Hysterectomy",
+            "PCOS Specialist",
+            "High-risk Pregnancy",
+            "Infertility Care"
+        ]
+    },
+    "dr-shailesh-gupta": {
+        "name": "Dr. Shailesh Gupta",
+        "specialty": "Cardiology & Internal Medicine",
+        "degrees": "MBBS, MD (Medicine) | Senior Physician & Heart Specialist",
+        "experience": "15+ Years",
+        "img": "shailesh-gupta.jpg",
+        "bio": "Dr. Shailesh Gupta is a highly experienced Physician and Cardiologist at Sankalp Hospital. With over 15 years of clinical practice, he specializes in managing complex medical conditions, particularly heart disease, hypertension, and metabolic disorders like diabetes.",
+        "long_bio": "",
+        "expertise": [
+            "Heart Disease",
+            "Hypertension",
+            "Diabetes Management",
+            "General Medicine",
+            "Preventive Cardiology"
+        ]
+    },
+    "dr-usha-armo": {
+        "name": "Dr. Usha Armo",
+        "specialty": "ENT (Otolaryngology)",
+        "degrees": "MBBS, MS (ENT) | Senior ENT Consultant",
+        "experience": "12+ Years",
+        "img": "usha-armo.jpg",
+        "bio": "Dr. Usha Armo is a dedicated ENT Specialist at Sankalp Hospital with over 12 years of clinical experience. She is highly proficient in managing both medical and surgical conditions of the ear, nose, and throat. Her expertise in endoscopy and microsurgery has helped many patients find relief from chronic ENT problems.",
+        "long_bio": "",
+        "expertise": [
+            "Sinusitis Treatment",
+            "Tympanoplasty",
+            "Hearing Loss",
+            "Tonsillectomy",
+            "Nasal Endoscopy"
+        ]
+    },
+    "dr-megha-goyal": {
+        "name": "Dr. Megha Goyal",
+        "specialty": "Neonatology & Pediatrics",
+        "degrees": "MBBS, MD (Pediatrics) | Consultant Neonatologist",
+        "experience": "7+ Years",
+        "img": "megha-goyal.jpg",
+        "bio": "Dr. Megha Goyal is a dedicated Neonatologist at Sankalp Hospital, specializing in the care of newborns and premature infants. Her expertise in the Neonatal Intensive Care Unit (NICU) has saved many lives, providing the highest standard of care for the most vulnerable patients.",
+        "long_bio": "",
+        "expertise": [
+            "Newborn Care",
+            "NICU Specialist",
+            "Premature Baby Care",
+            "Pediatric Emergencies",
+            "Childhood Immunization"
+        ]
+    },
+    "dr-akshaya-goyal": {
+        "name": "Dr. Akshaya Goyal",
+        "specialty": "Ophthalmology (Eye Care)",
+        "degrees": "MBBS, MS (Ophthalmology) | Consultant Ophthalmologist",
+        "experience": "7+ Years",
+        "img": "akshaya-goyal.jpg",
+        "bio": "Dr. Akshaya Goyal is a skilled Eye Specialist at Sankalp Hospital, dedicated to providing advanced eye care services. He specializes in modern cataract surgery and managing complex eye conditions, ensuring clear vision for his patients in Ambikapur.",
+        "long_bio": "",
+        "expertise": [
+            "Phaco Cataract Surgery",
+            "Glaucoma Management",
+            "Diabetic Retinopathy",
+            "Refractive Errors",
+            "Eye Trauma"
+        ]
+    },
+    "dr-akshay-gupta": {
+        "name": "Dr. Akshay Gupta",
+        "specialty": "Rheumatology & Internal Medicine",
+        "degrees": "MD (Medicine) | Consultant Physician & Rheumatologist",
+        "experience": "5+ Years",
+        "img": "akshay-gupta.jpg",
+        "bio": "Dr. Akshay Gupta is a Consultant Physician and Rheumatologist with expertise in Internal Medicine, autoimmune diseases, arthritis, and complex medical disorders. He completed his MBBS from Vardhman Mahavir Medical College & Safdarjung Hospital and MD (Medicine) from Dr. Ram Manohar Lohia Hospital, New Delhi. He is recognized as the first and only rheumatology specialist serving the Surguja region.",
+        "long_bio": "",
+        "expertise": [
+            "Rheumatology",
+            "Rheumatoid Arthritis",
+            "Ankylosing Spondylitis",
+            "Lupus (SLE)",
+            "Psoriatic Arthritis",
+            "Gout",
+            "Vasculitis",
+            "Osteoporosis",
+            "Diabetes & Hypertension",
+            "General Internal Medicine"
+        ]
+    },
+    "dr-ankit-gupta": {
+        "name": "Dr. Ankit Gupta",
+        "specialty": "Pediatrics",
+        "degrees": "MBBS, DCH | Senior Consultant Pediatrician",
+        "experience": "10+ Years",
+        "img": "ankit-gupta.jpg",
+        "bio": "Dr. Ankit Gupta is a highly regarded Pediatrician in Ambikapur, known for his excellence in child healthcare. He provides comprehensive care for infants, children, and adolescents, specializing in growth monitoring, nutrition, and infectious diseases.",
+        "long_bio": "",
+        "expertise": [
+            "Child Vaccination",
+            "Neonatal Care",
+            "Pediatric Nutrition",
+            "Child Growth Monitoring",
+            "Infectious Diseases"
+        ]
+    },
+    "dr-rimsha-lakesh-sahu": {
+        "name": "Dr. Rimsha Lakesh Sahu",
+        "specialty": "Nutrition & Dietetics",
+        "degrees": "M.Sc. (Nutrition & Dietetics) | Consultant Nutritionist",
+        "experience": "5+ Years",
+        "img": "rimsha-sahu.jpg",
+        "bio": "Dr. Rimsha Lakesh Sahu is a highly skilled Nutritionist at Sankalp Hospital, helping patients achieve their health goals through personalized diet plans. She specializes in clinical nutrition, helping patients manage chronic diseases like diabetes and hypertension through lifestyle modifications.",
+        "long_bio": "",
+        "expertise": [
+            "Weight Loss Plans",
+            "Diabetic Diet",
+            "Therapeutic Nutrition",
+            "Child Nutrition",
+            "Lifestyle Coaching"
+        ]
+    }
+}

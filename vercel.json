@@ -1,0 +1,31 @@
+{
+  "builds": [
+    {
+      "src": "api/**/*.php",
+      "use": "vercel-php"
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "script.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "logo.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "images/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/style.css", "dest": "/style.css" },
+    { "src": "/script.js", "dest": "/script.js" },
+    { "src": "/logo.png", "dest": "/logo.png" },
+    { "src": "/images/(.*)", "dest": "/images/$1" },
+    { "src": "/(.*)", "dest": "/api/index.php" }
+  ]
+}
