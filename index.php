@@ -379,7 +379,7 @@ include __DIR__ . '/includes/navbar.php';
                 <i class="fas fa-chevron-right arrow-indicator"></i>
               </button>
 
-              <!-- Item 11: Department of Anesthesia -->
+              <!-- Item 11: Anesthesia -->
               <button class="nav-link specialty-tab-btn" id="tab-anesthesia" data-bs-toggle="pill" data-bs-target="#panel-anesthesia" type="button" role="tab" aria-controls="panel-anesthesia" aria-selected="false">
                 <span class="btn-icon-title">
                   <i class="fas fa-syringe"></i>
@@ -434,25 +434,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-sanjay-goyal"><img src="images/sanjay-goyal.jpg" alt="Dr. Sanjay Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-sanjay-goyal" class="text-decoration-none text-dark">Dr. Sanjay Goyal</a></h6>
-                        <small class="text-muted">MBBS, MS - Ophthalmology</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-akshaya-goyal"><img src="images/akshaya-goyal.jpg" alt="Dr. Akshaya Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-akshaya-goyal" class="text-decoration-none text-dark">Dr. Akshaya Goyal</a></h6>
-                        <small class="text-muted">MBBS, MS - Ophthalmology</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="ophthalmology"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -489,18 +470,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <div class="mini-doc-avatar-placeholder"><i class="fas fa-hospital-user"></i></div>
-                      <div>
-                        <h6>On-Duty Trauma Team</h6>
-                        <small class="text-muted">Emergency Medical Officers</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-emergency btn-book-specialty" data-dept="emergency"><i class="fas fa-ambulance"></i> Contact Emergency</button>
@@ -537,39 +506,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-lata-goyal"><img src="images/lata-goyal.jpg" alt="Dr. Lata Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-lata-goyal" class="text-decoration-none text-dark">Dr. Lata Goyal</a></h6>
-                        <small class="text-muted">MBBS, MS - Obs & Gynaecology</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-ankita-bansal-goyal"><img src="images/ankita-goyal.jpg" alt="Dr. Ankita Bansal Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-ankita-bansal-goyal" class="text-decoration-none text-dark">Dr. Ankita Bansal Goyal</a></h6>
-                        <small class="text-muted">MD (Obs & Gynae) - FMAS</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-sukirti-chauhan"><img src="images/sukirti-chauhan.jpg" alt="Dr. Sukirti Chauhan" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-sukirti-chauhan" class="text-decoration-none text-dark">Dr. Sukirti Chauhan</a></h6>
-                        <small class="text-muted">MBBS, MS - Gynecology</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-vijaya-singh"><img src="images/vijaya-singh.jpg" alt="Dr. Vijaya Singh" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-vijaya-singh" class="text-decoration-none text-dark">Dr. Vijaya Singh</a></h6>
-                        <small class="text-muted">MBBS, DGO - Gynecology</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="gynecology"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -606,25 +542,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-lata-goyal"><img src="images/lata-goyal.jpg" alt="Dr. Lata Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-lata-goyal" class="text-decoration-none text-dark">Dr. Lata Goyal</a></h6>
-                        <small class="text-muted">MBBS, MS - Obs & Gynaecology</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-ankita-bansal-goyal"><img src="images/ankita-goyal.jpg" alt="Dr. Ankita Bansal Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-ankita-bansal-goyal" class="text-decoration-none text-dark">Dr. Ankita Bansal Goyal</a></h6>
-                        <small class="text-muted">MD (Obs & Gynae) - FMAS</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="gynecology"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -661,32 +578,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-nilesh-goyal"><img src="images/nilesh-goyal.jpg" alt="Dr. Nilesh Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-nilesh-goyal" class="text-decoration-none text-dark">Dr. Nilesh Goyal</a></h6>
-                        <small class="text-muted">MBBS, MS - General Surgery</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-chandra-mukesh-dhawde"><img src="images/chandra-dhawde.jpg" alt="Dr. Chandra Mukesh Dhawde" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-chandra-mukesh-dhawde" class="text-decoration-none text-dark">Dr. Chandra Mukesh Dhawde</a></h6>
-                        <small class="text-muted">MBBS, MS - Laparoscopic Surgeon</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-suneedh-gupta"><img src="images/suneedh-gupta.jpg" alt="Dr. Suneedh Gupta" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-suneedh-gupta" class="text-decoration-none text-dark">Dr. Suneedh Gupta</a></h6>
-                        <small class="text-muted">BDS, MDS - Maxillofacial Surgery</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="surgery"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -723,32 +614,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-ankit-gupta"><img src="images/ankit-gupta.jpg" alt="Dr. Ankit Gupta" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-ankit-gupta" class="text-decoration-none text-dark">Dr. Ankit Gupta</a></h6>
-                        <small class="text-muted">MBBS, DCH - Pediatrician</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-megha-goyal"><img src="images/megha-goyal.jpg" alt="Dr. Megha Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-megha-goyal" class="text-decoration-none text-dark">Dr. Megha Goyal</a></h6>
-                        <small class="text-muted">MBBS, MD - Neonatologist</small>
-                      </div>
-                    </div>
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-yuvan-prasannaa"><img src="images/yuvan.jpg" alt="Dr. Yuvan Prasannaa" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-yuvan-prasannaa" class="text-decoration-none text-dark">Dr. Yuvan Prasannaa</a></h6>
-                        <small class="text-muted">MBBS, MD - Pediatrics</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="pediatrics"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -785,18 +650,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-tanay-goyal"><img src="images/tanay-goyal.jpg" alt="Dr. Tanay Goyal" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-tanay-goyal" class="text-decoration-none text-dark">Dr. Tanay Goyal</a></h6>
-                        <small class="text-muted">MBBS, MS - Orthopaedics</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="orthopedics"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -833,18 +686,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <div class="mini-doc-avatar-placeholder"><i class="fas fa-hospital-user"></i></div>
-                      <div>
-                        <h6>On-Call Urology Specialists</h6>
-                        <small class="text-muted">Urology Surgeons</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="urology"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -881,18 +722,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-ankit-sharma"><img src="images/ankit-sharma.jpg" alt="Dr. Ankit Sharma" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-ankit-sharma" class="text-decoration-none text-dark">Dr. Ankit Sharma</a></h6>
-                        <small class="text-muted">MBBS, MD - Psychiatry</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="psychiatry"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -929,18 +758,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-usha-armo"><img src="images/usha-armo.jpg" alt="Dr. Usha Armo" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-usha-armo" class="text-decoration-none text-dark">Dr. Usha Armo</a></h6>
-                        <small class="text-muted">MBBS, MS - ENT</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="ent"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -977,18 +794,7 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-nagaraj-g-naik"><img src="images/nagaraj-naik.jpg" alt="Dr. Nagaraj G Naik" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-nagaraj-g-naik" class="text-decoration-none text-dark">Dr. Nagaraj G Naik</a></h6>
-                        <small class="text-muted">DA, DNB - Anaesthesiology</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="anesthesia"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -1025,18 +831,6 @@ include __DIR__ . '/includes/navbar.php';
                   </div>
                 </div>
 
-                <div class="specialist-box mt-4 pt-3 border-top">
-                  <h5 class="specialists-title"><i class="fas fa-user-md"></i> Department Specialists</h5>
-                  <div class="d-flex flex-wrap gap-4 mt-3">
-                    <div class="mini-doc-card d-flex align-items-center gap-3">
-                      <a href="doctors/dr-himanshu-gupta"><img src="images/himanshu-gupta.jpg" alt="Dr. Himanshu Gupta" class="mini-doc-img"></a>
-                      <div>
-                        <h6><a href="doctors/dr-himanshu-gupta" class="text-decoration-none text-dark">Dr. Himanshu Gupta</a></h6>
-                        <small class="text-muted">MBBS, MD/DNB - Oncology</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <div class="panel-footer mt-4 pt-3 d-flex justify-content-end">
                 <button class="btn btn-primary btn-book-specialty" data-dept="oncology"><i class="far fa-calendar-check"></i> Book Consultation</button>
@@ -1122,25 +916,7 @@ include __DIR__ . '/includes/navbar.php';
             </div>
           </div>
 
-          <!-- Dr. Vijaya Singh -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-vijaya-singh"><img src="images/vijaya-singh.jpg" alt="Dr. Vijaya Singh"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Gynecology</span>
-                <h4><a href="doctors/dr-vijaya-singh" class="text-decoration-none text-dark">Dr. Vijaya Singh</a></h4>
-                <p class="doc-degrees">MBBS, DGO - Gynecology</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
+
 
           <!-- Dr. Tanay Goyal -->
           <div class="doctor-card-wrapper">
@@ -1242,25 +1018,7 @@ include __DIR__ . '/includes/navbar.php';
             </div>
           </div>
 
-          <!-- Dr. Yuvan Prasannaa -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-yuvan-prasannaa"><img src="images/yuvan.jpg" alt="Dr. Yuvan Prasannaa"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Pediatrics</span>
-                <h4><a href="doctors/dr-yuvan-prasannaa" class="text-decoration-none text-dark">Dr. Yuvan Prasannaa</a></h4>
-                <p class="doc-degrees">MBBS, MD - Pediatrics</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
+
 
           <!-- Dr. Nilesh Goyal -->
           <div class="doctor-card-wrapper">
@@ -1421,45 +1179,7 @@ include __DIR__ . '/includes/navbar.php';
               </div>
             </div>
           </div>
-          <!-- Dr. Nagaraj G Naik -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-nagaraj-g-naik"><img src="images/nagaraj-naik.jpg" alt="Dr. Nagaraj G Naik"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Anesthesia</span>
-                <h4><a href="doctors/dr-nagaraj-g-naik" class="text-decoration-none text-dark">Dr. Nagaraj G Naik</a></h4>
-                <p class="doc-degrees">DA, DNB - Anaesthesiology</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
 
-          <!-- Dr. Rimsha Lakesh Sahu -->
-          <div class="doctor-card-wrapper">
-            <div class="doctor-card">
-              <div class="doctor-img-container">
-                <a href="doctors/dr-rimsha-lakesh-sahu"><img src="images/rimsha-sahu.jpg" alt="Dr. Rimsha Lakesh Sahu"></a>
-                <span class="doc-badge-status"><i class="fas fa-check-circle text-success me-1"></i> Available Today</span>
-                <div class="doctor-glass-socials">
-                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                  <a href="mailto:info.sankalpslms@gmail.com" aria-label="Mail"><i class="fas fa-envelope"></i></a>
-                </div>
-              </div>
-              <div class="doctor-info">
-                <span class="doc-dept-badge">Nutrition & Dietetics</span>
-                <h4><a href="doctors/dr-rimsha-lakesh-sahu" class="text-decoration-none text-dark">Dr. Rimsha Lakesh Sahu</a></h4>
-                <p class="doc-degrees">M.Sc. (Nutrition) | Consultant Nutritionist</p>
-                <a href="#appointment" class="doc-btn">Book Appointment</a>
-              </div>
-            </div>
-          </div>
 
           <!-- Dr. Manoj Bharti -->
           <div class="doctor-card-wrapper">

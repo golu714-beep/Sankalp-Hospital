@@ -59,11 +59,6 @@ $fullDocs = [
         'long_bio' => 'Dr. Nilesh is committed to providing high-quality surgical treatment with a focus on patient safety and comfort. His expertise in laparoscopic surgery ensures smaller incisions, less post-operative pain, and a quicker return to daily activities for his patients.',
         'expertise' => ['Laparoscopic Gallbladder Surgery', 'Hernia Repair', 'Appendectomy', 'Abdominal Surgery', 'Trauma Surgery'],
     ],
-    'dr-vijaya-singh' => [
-        'bio' => 'Dedicated Gynecologist offering general maternity checkups, out-patient screenings, and normal deliveries.',
-        'long_bio' => 'Dr. Vijaya Singh is a dedicated Gynecologist at Sankalp Hospital offering comprehensive outpatient care, routine prenatal screenings, and normal deliveries. She is known for her approachable nature and focus on health education for young mothers.',
-        'expertise' => ['Antenatal & Postnatal Care', 'Routine Gynaec Screenings', 'Normal Delivery Management', 'Family Planning Guidance', 'Menopause Counselling'],
-    ],
     'dr-ankit-sharma' => [
         'bio' => 'Dr. Ankit Sharma is a compassionate Psychiatrist at Sankalp Hospital, dedicated to providing comprehensive mental health care. He specializes in treating a wide range of psychological conditions and is committed to helping his patients achieve mental well-being and resilience.',
         'long_bio' => 'Dr. Ankit believes in a holistic approach to mental health, combining medication management with evidence-based psychotherapy. He treats conditions like anxiety disorders, depression, bipolar disorder, and addiction with the utmost confidentiality and professionalism.',
@@ -73,16 +68,6 @@ $fullDocs = [
         'bio' => 'Dr. Ankita Bansal Goyal is a gold-medalist from PGIMER Chandigarh and a pioneer in 3D Laparoscopic Surgery in Ambikapur. She specializes in minimally invasive gynecological procedures, including laparoscopic hysterectomy and myomectomy, providing advanced surgical care for women.',
         'long_bio' => 'Dr. Ankita\'s training at PGIMER Chandigarh and her fellowship in minimal access surgery allow her to perform complex surgeries with minimal scarring and faster recovery. She is dedicated to improving women\'s quality of life through advanced medical and surgical interventions for conditions like endometriosis, uterine fibroids, and heavy menstrual bleeding.',
         'expertise' => ['3D Laparoscopic Surgery', 'Laparoscopic Hysterectomy', 'PCOS Specialist', 'High-risk Pregnancy', 'Infertility Care'],
-    ],
-    'dr-yuvan-prasannaa' => [
-        'bio' => 'Consultant Pediatrician providing general pediatric consultations and child growth tracking.',
-        'long_bio' => 'Dr. Yuvan Prasannaa is a Consultant Pediatrician at Sankalp Hospital. He offers routine child healthcare, growth and development tracking, childhood immunizations, and guidance on nutritional needs for infants and young children in the region.',
-        'expertise' => ['Child Growth Monitoring', 'Immunization & Vaccination', 'Childhood Infections Care', 'Pediatric Nutrition Counseling', 'Asthma & Allergy Management'],
-    ],
-    'dr-nagaraj-g-naik' => [
-        'bio' => 'Consultant Anaesthetist and Intensivist coordinating surgical sedation and painless labor protocols.',
-        'long_bio' => 'Dr. Nagaraj G Naik is a Consultant Anaesthetist and Intensivist at Sankalp Hospital with 15+ years of clinical experience. He coordinates surgical sedation, critical care management in the ICU, and manages advanced labor analgesia (painless labor) protocols.',
-        'expertise' => ['General & Regional Anesthesia', 'Painless Labor (Epidural)', 'ICU Life Support Coordination', 'Pre-Anesthetic Health Profiling', 'Post-Operative Pain Relief'],
     ],
     'dr-shailesh-gupta' => [
         'bio' => 'Dr. Shailesh Gupta is a highly experienced Physician and Cardiologist at Sankalp Hospital. With over 15 years of clinical practice, he specializes in managing complex medical conditions, particularly heart disease, hypertension, and metabolic disorders like diabetes.',
@@ -118,11 +103,6 @@ $fullDocs = [
         'bio' => 'Dr. Ankit Gupta is a highly regarded Pediatrician in Ambikapur, known for his excellence in child healthcare. He provides comprehensive care for infants, children, and adolescents, specializing in growth monitoring, nutrition, and infectious diseases.',
         'long_bio' => 'From routine checkups to managing complex childhood illnesses, Dr. Ankit\'s expertise ensures that your child\'s health is in safe hands. He is a strong advocate for vaccination and preventive healthcare, helping parents raise healthy and happy children.',
         'expertise' => ['Child Vaccination', 'Neonatal Care', 'Pediatric Nutrition', 'Child Growth Monitoring', 'Infectious Diseases'],
-    ],
-    'dr-rimsha-lakesh-sahu' => [
-        'bio' => 'Dr. Rimsha Lakesh Sahu is a highly skilled Nutritionist at Sankalp Hospital, helping patients achieve their health goals through personalized diet plans. She specializes in clinical nutrition, helping patients manage chronic diseases like diabetes and hypertension through lifestyle modifications.',
-        'long_bio' => 'Dr. Rimsha believes that nutrition is the foundation of good health. She works closely with patients to create sustainable eating habits that promote healing and long-term wellness. Whether you\'re looking to lose weight or manage a clinical condition, her personalized approach will help you achieve your goals.',
-        'expertise' => ['Weight Loss Plans', 'Diabetic Diet', 'Therapeutic Nutrition', 'Child Nutrition', 'Lifestyle Coaching'],
     ],
 ];
 

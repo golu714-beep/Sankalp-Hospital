@@ -41,6 +41,8 @@
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="/doctors.php">Experts</a></li>
+          <li class="nav-item"><a class="nav-link" href="/gallery.php">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
           <li class="nav-item"><a class="nav-link" href="/empanelments.php">Empanelments</a></li>
           <li class="nav-item"><a class="nav-link" href="/faq.php">FAQs</a></li>
           <li class="nav-item"><a class="nav-link" href="/index.php#contact">Contact</a></li>
@@ -107,6 +109,8 @@
           </div>
         </li>
         <li><a href="/doctors.php">Our Experts</a></li>
+        <li><a href="/gallery.php">Gallery</a></li>
+        <li><a href="/blog/">Blog</a></li>
         <li><a href="/empanelments.php">Empanelments</a></li>
         <li><a href="/faq.php">FAQs</a></li>
         <li><a href="/index.php#contact">Contact Us</a></li>

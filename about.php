@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "About Us | Sankalp Hospital - Best Multi-Specialty Hospital in Ambikapur";
-$pageDesc = "Learn about Sankalp Hospital's journey since 2008, our vision and mission, achievements, and our commitment to clinical excellence in Chhattisgarh under the leadership of Dr. Sanjay Goyal.";
+$pageDesc = "Learn about Sankalp Hospital's journey since 2008, led by Dr. Sanjay Goyal and Dr. Lata Goyal, our vision and mission, achievements, and commitment to clinical excellence in Chhattisgarh.";
 
 include __DIR__ . '/includes/header.php';
 include __DIR__ . '/includes/navbar.php';
@@ -55,27 +55,55 @@ include __DIR__ . '/includes/navbar.php';
 <!-- FOUNDER & DIRECTOR MESSAGE -->
 <section class="py-5 bg-light" id="director">
   <div class="container">
-    <div class="director-msg-card">
-      <div class="row g-5 align-items-center">
-        <!-- Director Portrait -->
-        <div class="col-lg-4 col-md-5">
-          <div class="director-img-frame">
+    <div class="section-title text-center mb-5">
+      <span>Leadership</span>
+      <h2>Message from Our Directors</h2>
+      <p>Meet the visionary leaders behind Sankalp Hospital's journey of clinical excellence.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Dr. Sanjay Goyal -->
+      <div class="col-lg-5 col-md-6">
+        <div class="director-msg-card h-100">
+          <div class="director-img-frame mb-4">
             <img src="images/doc4.png" alt="Dr. Sanjay Goyal" class="w-100">
             <div class="director-badge">
               <h5>Dr. Sanjay Goyal</h5>
               <small class="text-uppercase text-white-50">Founder & Director</small>
             </div>
           </div>
-        </div>
-        <!-- Message text -->
-        <div class="col-lg-8 col-md-7">
           <span class="about-badge mb-2 d-inline-block">Leadership Message</span>
-          <h2 class="mb-4 text-dark fw-bold">Message from the Director</h2>
           <div class="director-quote">
             "Sankalp Hospital was established in December 2008 with a pledge to bridge the regional gap in advanced medical care. We believe that premium clinical facilities should not be restricted to metro cities."
           </div>
-          <p class="text-muted leading-relaxed mb-3">At Sankalp Hospital, our clinical philosophy centers entirely on patient healing and safety. Over the past 15+ years, we have continuously upgraded our surgical suites, critical care setups, and in-house diagnostics to deliver precise treatments to the Surguja region.</p>
-          <p class="text-muted leading-relaxed">Whether you visit our advanced dialysis unit, the high-success IVF clinic, or our trauma ward, you will find a dedicated team of clinical professionals operating under the core values of compassion, integrity, and absolute transparency. We thank you for placing your trust in us.</p>
+          <p class="text-muted leading-relaxed mt-3 mb-0">With over 25 years of experience in Ophthalmology, Dr. Sanjay Goyal has been the driving force behind Sankalp Hospital's growth from a small clinic to a premier multi-specialty healthcare institution in Chhattisgarh.</p>
+        </div>
+      </div>
+
+      <!-- Dr. Lata Goyal -->
+      <div class="col-lg-5 col-md-6">
+        <div class="director-msg-card h-100">
+          <div class="director-img-frame mb-4">
+            <img src="images/lata-goyal.jpg" alt="Dr. Lata Goyal" class="w-100">
+            <div class="director-badge">
+              <h5>Dr. Lata Goyal</h5>
+              <small class="text-uppercase text-white-50">Director & Chief IVF Specialist</small>
+            </div>
+          </div>
+          <span class="about-badge mb-2 d-inline-block">Leadership Message</span>
+          <div class="director-quote">
+            "Our mission has always been to provide compassionate, world-class healthcare to every patient who walks through our doors. We are committed to advancing medical technology while keeping care personalized and accessible."
+          </div>
+          <p class="text-muted leading-relaxed mt-3 mb-0">A senior Obstetrician, Gynecologist, and IVF Specialist with 15+ years of experience, Dr. Lata Goyal has pioneered assisted reproductive technology in the Surguja region, helping thousands of families realize their dream of parenthood.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Combined Vision Statement -->
+    <div class="row mt-5">
+      <div class="col-lg-10 mx-auto">
+        <div class="director-msg-card text-center">
+          <p class="text-muted leading-relaxed mb-0 fs-5">"At Sankalp Hospital, our clinical philosophy centers entirely on patient healing and safety. Over the past 15+ years, we have continuously upgraded our surgical suites, critical care setups, and in-house diagnostics to deliver precise treatments to the Surguja region. Whether you visit our advanced dialysis unit, the high-success IVF clinic, or our trauma ward, you will find a dedicated team of clinical professionals operating under the core values of compassion, integrity, and absolute transparency. We thank you for placing your trust in us."</p>
         </div>
       </div>
     </div>

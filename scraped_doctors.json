@@ -211,21 +211,5 @@
             "Child Growth Monitoring",
             "Infectious Diseases"
         ]
-    },
-    "dr-rimsha-lakesh-sahu": {
-        "name": "Dr. Rimsha Lakesh Sahu",
-        "specialty": "Nutrition & Dietetics",
-        "degrees": "M.Sc. (Nutrition & Dietetics) | Consultant Nutritionist",
-        "experience": "5+ Years",
-        "img": "rimsha-sahu.jpg",
-        "bio": "Dr. Rimsha Lakesh Sahu is a highly skilled Nutritionist at Sankalp Hospital, helping patients achieve their health goals through personalized diet plans. She specializes in clinical nutrition, helping patients manage chronic diseases like diabetes and hypertension through lifestyle modifications.",
-        "long_bio": "",
-        "expertise": [
-            "Weight Loss Plans",
-            "Diabetic Diet",
-            "Therapeutic Nutrition",
-            "Child Nutrition",
-            "Lifestyle Coaching"
-        ]
     }
 }

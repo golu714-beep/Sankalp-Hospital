@@ -22,6 +22,7 @@
               <li><a href="/about.php">About Us</a></li>
               <li><a href="/departments.php">Our Specialties</a></li>
               <li><a href="/doctors.php">Meet Doctors</a></li>
+              <li><a href="/gallery.php">Image Gallery</a></li>
               <li><a href="/empanelments.php">Empanelments & Cashless</a></li>
               <li><a href="/faq.php">Support & FAQs</a></li>
               <li><a href="/myths-facts.php">Myths & Facts</a></li>

@@ -35,7 +35,7 @@
     { "src": "/script.js", "dest": "/script.js" },
     { "src": "/logo.png", "dest": "/logo.png" },
     { "src": "/images/(.*)", "dest": "/images/$1" },
-    { "src": "/doctors/(.*)", "dest": "/doctors/$1" },
+    { "src": "/doctors/([a-z0-9-]+)", "dest": "/doctors/$1.php" },
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }

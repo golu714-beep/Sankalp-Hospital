@@ -78,14 +78,6 @@ $doctorRegistry = [
         'img' => 'nilesh-goyal.jpg',
         'filters' => ['surgery'],
     ],
-    'dr-vijaya-singh' => [
-        'name' => 'Dr. Vijaya Singh',
-        'specialty' => 'Obstetrics & Gynaecology',
-        'degrees' => 'MBBS, DGO - Gynecology',
-        'experience' => '10+ Years',
-        'img' => 'vijaya-singh.jpg',
-        'filters' => ['gynecology'],
-    ],
     'dr-ankit-sharma' => [
         'name' => 'Dr. Ankit Sharma',
         'specialty' => 'Psychiatry',
@@ -101,22 +93,6 @@ $doctorRegistry = [
         'experience' => '8+ Years',
         'img' => 'ankita-goyal.jpg',
         'filters' => ['gynecology', 'surgery'],
-    ],
-    'dr-yuvan-prasannaa' => [
-        'name' => 'Dr. Yuvan Prasannaa',
-        'specialty' => 'Pediatrics',
-        'degrees' => 'MBBS, MD - Pediatrics',
-        'experience' => '8+ Years',
-        'img' => 'yuvan.jpg',
-        'filters' => ['pediatrics'],
-    ],
-    'dr-nagaraj-g-naik' => [
-        'name' => 'Dr. Nagaraj G Naik',
-        'specialty' => 'Anesthesiology',
-        'degrees' => 'DA, DNB - Anaesthesiology',
-        'experience' => '15+ Years',
-        'img' => 'nagaraj-naik.jpg',
-        'filters' => ['anesthesia'],
     ],
     'dr-shailesh-gupta' => [
         'name' => 'Dr. Shailesh Gupta',
@@ -173,13 +149,5 @@ $doctorRegistry = [
         'experience' => '10+ Years',
         'img' => 'ankit-gupta.jpg',
         'filters' => ['pediatrics'],
-    ],
-    'dr-rimsha-lakesh-sahu' => [
-        'name' => 'Dr. Rimsha Lakesh Sahu',
-        'specialty' => 'Nutrition & Dietetics',
-        'degrees' => 'M.Sc. (Nutrition & Dietetics) | Consultant Nutritionist',
-        'experience' => '5+ Years',
-        'img' => 'rimsha-sahu.jpg',
-        'filters' => ['nutrition'],
     ],
 ];

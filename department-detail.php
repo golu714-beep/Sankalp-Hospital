@@ -8,8 +8,7 @@ $doctorsList=[
     'gynecology'  =>[
         ['name'=>'Dr. Lata Goyal','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Senior Consultant & IVF Specialist with 15+ years of care in high-risk obstetrics and reproductive endocrinology.','img'=>'lata-goyal.jpg'],
         ['name'=>'Dr. Ankita Bansal Goyal','degrees'=>'MD (Obs & Gynae) - PGIMER CHD, FMAS','bio'=>'Gold-medalist Gynaecologist and pioneer of 3D laparoscopic keyhole surgery in Ambikapur.','img'=>'doc2.png'],
-        ['name'=>'Dr. Sukirti Chauhan','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Specialist Gynecologist expert in maternal health screenings, prenatal checks, and deliveries.','img'=>'doc2.png'],
-        ['name'=>'Dr. Vijaya Singh','degrees'=>'MBBS, DGO - Gynecology','bio'=>'Dedicated Gynecologist offering general maternity checkups, out-patient screenings, and normal deliveries.','img'=>'doc1.png']
+        ['name'=>'Dr. Sukirti Chauhan','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Specialist Gynecologist expert in maternal health screenings, prenatal checks, and deliveries.','img'=>'doc2.png']
     ],
     'ivf'         =>[
         ['name'=>'Dr. Lata Goyal','degrees'=>'MBBS, MS - Obs & Gynaecology','bio'=>'Lead reproductive endocrinologist with extensive expertise in IVF stimulation and ART treatments.','img'=>'lata-goyal.jpg'],
@@ -27,8 +26,7 @@ $doctorsList=[
     ],
     'pediatrics'  =>[
         ['name'=>'Dr. Ankit Gupta','degrees'=>'MBBS, DCH - Pediatrician','bio'=>'Senior Consultant Pediatrician providing comprehensive outpatient child care and NICU support.','img'=>'doc4.png'],
-        ['name'=>'Dr. Megha Goyal','degrees'=>'MBBS, MD - Pediatrics','bio'=>'Consultant Neonatologist specialized in level-III NICU care for premature newborns and babies.','img'=>'doc1.png'],
-        ['name'=>'Dr. Yuvan Prasannaa','degrees'=>'MBBS, MD - Pediatrics','bio'=>'Consultant Pediatrician providing general pediatric consultations and child growth tracking.','img'=>'doc2.png']
+        ['name'=>'Dr. Megha Goyal','degrees'=>'MBBS, MD - Pediatrics','bio'=>'Consultant Neonatologist specialized in level-III NICU care for premature newborns and babies.','img'=>'doc1.png']
     ],
     'psychiatry'  =>[
         ['name'=>'Dr. Ankit Sharma','degrees'=>'MBBS, MD - Psychiatry','bio'=>'Consultant Psychiatrist providing professional counseling and therapy for stress, anxiety, and depression.','img'=>'doc3.png']
@@ -47,7 +45,7 @@ $doctorsList=[
         ['name'=>'Dr. Usha Armo','degrees'=>'MBBS, MS - ENT','bio'=>'Senior ENT Consultant proficient in endoscopic sinus surgeries and micro-ear treatments.','img'=>'doc2.png']
     ],
     'anesthesia'  =>[
-        ['name'=>'Dr. Nagaraj G Naik','degrees'=>'DA, DNB - Anaesthesiology','bio'=>'Consultant Anaesthetist and Intensivist coordinating surgical sedation and painless labor protocols.','img'=>'nagaraj-naik.jpg']
+        ['name'=>'On-Call Anesthesia Specialists','degrees'=>'Consultant Anaesthetists','bio'=>'Qualified anesthesiologists available for surgical sedation and pain management protocols.','img'=>'dp']
     ],
 ];
 $deptDocs=$doctorsList[$deptKey]??[];

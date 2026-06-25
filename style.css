@@ -965,21 +965,76 @@ img {
   gap: 8px;
 }
 
+@media (min-width: 992px) {
+  .specialty-sidebar-card {
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+  }
+  .specialty-nav-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 8px;
+  }
+  .specialty-nav-list::-webkit-scrollbar {
+    width: 6px;
+  }
+  .specialty-nav-list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .specialty-nav-list::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 10px;
+  }
+  .specialty-nav-list::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
 @media (max-width: 991px) {
   .specialty-sidebar-card {
     position: static;
     padding: 15px;
     margin-bottom: 10px;
-  }
-  .specialty-nav-list {
-    flex-direction: row !important;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    padding-bottom: 10px;
+    max-height: 400px;
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .specialty-nav-list,
+  .nav.specialty-nav-list {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    display: flex !important;
+    overflow: visible !important;
+    gap: 8px !important;
+  }
   .specialty-nav-list::-webkit-scrollbar {
-    height: 5px;
+    width: 5px;
+  }
+  .specialty-nav-list::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .specialty-tab-btn {
+    white-space: normal;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 14px;
+  }
+  .arrow-indicator {
+    display: block;
+  }
+}
+  .specialty-nav-list {
+    flex-direction: column !important;
+    flex-wrap: nowrap;
+  }
+  .specialty-nav-list::-webkit-scrollbar {
+    width: 5px;
   }
   .specialty-nav-list::-webkit-scrollbar-thumb {
     background-color: #cbd5e1;
@@ -1040,16 +1095,40 @@ img {
   opacity: 1;
 }
 
+.specialty-sub-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.specialty-tab-sm {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 8px !important;
+  font-size: 0.78rem !important;
+  justify-content: center !important;
+}
+
+.specialty-tab-sm .btn-icon-title {
+  gap: 6px;
+}
+
+.specialty-tab-sm .btn-icon-title i {
+  font-size: 0.9rem;
+  width: auto;
+}
+
 @media (max-width: 991px) {
   .specialty-tab-btn {
-    white-space: nowrap;
-    width: auto;
-    display: inline-flex;
-    justify-content: center;
-    padding: 10px 16px;
+    white-space: normal;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 14px;
   }
   .arrow-indicator {
-    display: none;
+    display: block;
   }
 }
 
@@ -5220,4 +5299,208 @@ img {
 .filter-tabs-container {
   border-radius: 50px;
   padding: 10px 20px;
+}
+
+/* ============================
+   Gallery Page Styles
+   ============================ */
+.gallery-card {
+  background: var(--white);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+}
+
+.gallery-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+.gallery-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gallery-card:hover .gallery-img {
+  transform: scale(1.08);
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 92, 173, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-card:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.gallery-lightbox {
+  width: 50px;
+  height: 50px;
+  background: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: var(--transition);
+  transform: scale(0.8);
+}
+
+.gallery-card:hover .gallery-lightbox {
+  transform: scale(1);
+}
+
+.gallery-lightbox:hover {
+  background: var(--secondary);
+  color: var(--white);
+}
+
+.gallery-info {
+  padding: 20px;
+}
+
+.gallery-info h5 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.gallery-info p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* Lightbox Modal */
+#galleryModal .modal-content {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#galleryModal .btn-close-white {
+  filter: invert(1);
+  width: 30px;
+  height: 30px;
+}
+
+/* Badge soft background */
+.bg-primary-soft {
+  background: rgba(15, 92, 173, 0.1) !important;
+}
+
+/* ============================
+   Blog Page Styles
+   ============================ */
+.blog-card {
+  background: var(--white);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+}
+
+.blog-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16/10;
+}
+
+.blog-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.blog-card:hover .blog-img {
+  transform: scale(1.05);
+}
+
+.blog-category {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--primary);
+  color: var(--white);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.blog-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.blog-meta {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.blog-meta span {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.blog-title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.blog-excerpt {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.blog-read-more {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.blog-card:hover .blog-read-more {
+  color: var(--secondary);
 }
